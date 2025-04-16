@@ -25,8 +25,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isMobile, isOpen, toggleSidebar }) =>
     { name: 'Equipment', path: '/equipment', icon: <Stethoscope size={20} /> },
     { name: 'Staff', path: '/staff', icon: <Users size={20} /> },
     { name: 'Scheduling', path: '/scheduling', icon: <Calendar size={20} /> },
-    { name: 'Settings', path: '/settings', icon: <Settings size={20} /> },
+    // { name: 'Staff Optimizer', path: '/staff-optimizer', icon: <Users size={20} /> },
     { name: 'Bed Optimizer', path: '/bed-optimizer', icon: <Bed size={20} /> },
+    { name: 'Settings', path: '/settings', icon: <Settings size={20} /> },
   ];
 
   if (isMobile && !isOpen) return null;

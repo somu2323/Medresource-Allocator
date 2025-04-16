@@ -7,6 +7,7 @@ import EquipmentManagement from './pages/EquipmentManagement';
 import StaffManagement from './pages/StaffManagement';
 import StaffScheduling from './pages/StaffScheduling';
 import BedOptimizer from './pages/BedOptimizer';
+import StaffOptimizer from './pages/StaffOptimizer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="equipment" element={<EquipmentManagement />} />
           <Route path="staff" element={<StaffManagement />} />
           <Route path="scheduling" element={<StaffScheduling />} />
+          <Route path="staff-optimizer" element={<StaffOptimizer />} />
           <Route path="settings" element={<div className="p-4">Settings Page (Coming Soon)</div>} />
         </Route>
       </Routes>
